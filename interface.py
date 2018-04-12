@@ -108,7 +108,7 @@ def ML_Prevision_and_affichage(coeff,Xactuel,Yinit,self,Company) :
                 
                 
                 global label
-                label = tk.Label(self, text="Le prix de l'action simulé est de "+ str(round(resultat[0], 2)).strip('[]') +" euros", font="arial 10")
+                label = tk.Label(self, text="Le prix de l'action simulé est de "+ str(round(resultat[0], 2)).strip('[]') +" euros         ", font="arial 10")
                 #label.pack(pady=10,padx=10)
                 label.grid(row=40, column=20, pady=10)
                 label.configure(bg="cadet blue", font="Century 13 bold")
@@ -116,10 +116,10 @@ def ML_Prevision_and_affichage(coeff,Xactuel,Yinit,self,Company) :
                     
                     print("Nous estimons que le cours de l'action va augmenter , nous vous conseillons donc d'investir au prix actuel de :",Xactuel[len(Xactuel)-1]," euros")
                     print(" ")
-                    global lb1
-                    lb1 = tk.Label(self, text="Nous estimons que le cours de l'action va augmenter , nous vous conseillons donc d'investir au prix actuel de :" + str(Xactuel[len(Xactuel)-1]).strip('[]') + " euros", font="arial 10")
-                    lb1.grid(row=41, column=20, pady=10)
-                    lb1.configure(bg="cadet blue", font="Century 13 bold")
+#                    global lb1
+#                    lb1 = tk.Label(self, text="Nous estimons que le cours de l'action va augmenter , nous vous conseillons donc d'investir au prix actuel de :" + str(Xactuel[len(Xactuel)-1]).strip('[]') + " euros", font="arial 10")
+#                    lb1.grid(row=41, column=20, pady=10)
+#                    lb1.configure(bg="cadet blue", font="Century 13 bold")
                                  
                     global lb2
                     lb2 = tk.Label(self, text=" L'investissment devrait vous rapporter à court terme "+ str(profit).strip('[]') +" euros soit " + str(profit_).strip('[]') + " %", font="arial 10")
@@ -1531,10 +1531,10 @@ class PageLinearRegression(tk.Frame):
         label.configure(bg="cadet blue", font="Century 13 bold")
         
         if profit >0:
-            global lb1
-            lb1 = tk.Label(self, text="Nous estimons que le cours de l'action va augmenter , nous vous conseillons donc d'investir au prix actuel de :" + str(xactu.p_r.values[0]).strip('[]') + " euros", font="arial 10")
-            lb1.grid(row=41, column=20, pady=10)
-            lb1.configure(bg="cadet blue", font="Century 13 bold")
+#            global lb1
+#            lb1 = tk.Label(self, text="Nous estimons que le cours de l'action va augmenter , nous vous conseillons donc d'investir au prix actuel de :" + str(y.prixreel.tail(n=1).values[0]).strip('[]') + " euros", font="arial 10")
+#            lb1.grid(row=41, column=20, pady=10)
+#            lb1.configure(bg="cadet blue", font="Century 13 bold")
                          
             global lb2
             lb2 = tk.Label(self, text=" L'investissment devrait vous rapporter à court terme "+ str(profit).strip('[]') +" euros soit " + str(profit_).strip('[]') + " %          ", font="arial 10")
