@@ -36,6 +36,6 @@ https://www.tradingsat.com/
 
 https://finance.yahoo.com/
 
-##License
+## License
 
 This program is free software: you can redistribute it and/or modifyit under the terms of the GNU General Public License as published bythe Free Software Foundation version 3.This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
