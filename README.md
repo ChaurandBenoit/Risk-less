@@ -8,7 +8,7 @@ Risk-less est un logiciel développé en langage Python et a pour but d’indiqu
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
 Ses instructions vous permettront d'avoir une copie du projet fonctionel sur votre machine local pour du developpement et du test.
 
-### Installing
+### Installing/ Installation
 
 Firstly, you need to download anaconda : https://conda.io/docs/user-guide/install/windows.html
 Installer pour commencer anaconda : https://conda.io/docs/user-guide/install/windows.html
@@ -16,10 +16,15 @@ Installer pour commencer anaconda : https://conda.io/docs/user-guide/install/win
 Then on the Anaconda Navigator, open Spyder.
 Puis sur Anaconda Navigator, ouvrez Spyder.
 
-Download the zip file with .py files and images, and open the files on Spyder.
-Téléchargez le .zip avec les fichiers .py et les images, et ouvrez les fichiers dans Spyder
+Download the zip file with .py files and images, and open the py file on Spyder.
+Téléchargez le .zip avec les fichiers .py et les images, et ouvrez le fichier py dans Spyder
 
-## Running the tests
+## Running the tests/ Lancer les test
 
 To run the test, click on the green arrow or F5.
 Pour lancer les test, cliquer sur la flêche verte ou sur F5.
+
+## Where did we get the informations
+
+https://www.tradingsat.com/
+https://finance.yahoo.com/
